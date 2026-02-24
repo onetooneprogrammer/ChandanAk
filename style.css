@@ -1,13 +1,38 @@
-.cracker {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: gold;
-  border-radius: 50%;
-  animation: burst 1s ease-out forwards;
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  text-align: center;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes burst {
-  from { transform: scale(1); opacity: 1; }
-  to { transform: scale(3); opacity: 0; }
+.container {
+  margin-top: 15%;
+}
+
+h1 {
+  font-size: 3em;
+  color: #b30059;
+}
+
+h2 {
+  font-size: 2em;
+  margin-top: 20px;
+  color: #660033;
+}
+
+button {
+  background-color: #ff6699;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  color: white;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #ff3366;
 }
